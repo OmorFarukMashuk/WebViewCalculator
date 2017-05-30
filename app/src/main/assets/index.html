@@ -1,0 +1,99 @@
+<html>
+<head>
+    <style type="text/css">
+
+        input[type=button] {
+        width: 50px;  height: 30px;
+        }
+        input[type=text] {
+        width: 220px;  height: 25px;
+        }
+    </style>
+    <script type="text/javascript">
+	var pointbool="false";
+	var oprbool = "false";
+	var rsltbool = "false"
+      function addNum(num) {
+            window.alert(oprbool);
+            if(rsltbool === "true") 
+			{
+				clear_method();
+				rsltbool = "false";
+            }
+	    	Android.addNum(num);
+            if(oprbool==="true")
+            {
+                oprbool="false";
+                document.getElementById("res").value="";
+                var display=document.getElementById("res");
+                display.value=num;
+
+            }
+            else
+            {
+                var display=document.getElementById("res");
+                display.value=document.getElementById("res").value+num;
+            }
+
+        }
+	 function clear_method()
+        {
+            Android.clear_method();
+            var display=document.getElementById("res");
+			display.value="";
+			oprbool="false";
+			pointbool = "false";
+        }
+        function addOperator(opr) {
+            window.alert("test opr"); 
+            Android.addOperator(opr);
+	      oprbool = "true";
+        }
+        function getResult() {
+            window.alert("test res");
+            var result=Android.getResult();
+            var display=document.getElementById("res");
+            display.value= result;
+	    rsltbool = "true"
+        }
+    </script>
+
+</head>
+<body>
+	<div align = "center">
+        <input type="text" value="" id="res" name="res"/>
+        <table>
+
+				
+		<tr>
+            <td><input type="button" value="1" onClick="addNum('1')"/></td>
+			<td><input type="button" value="2" onClick="addNum('2')" /></td>
+			<td><input type="button" value="3" onClick="addNum('3')" /></td>
+			<td><input type="button" value="+" onClick="addOperator('+')" /></td>
+		</tr>
+
+		<tr>			
+			<td><input type="button" value="4" onClick="addNum('4')" /></td>
+			<td><input type="button" value="5" onClick="addNum('5')" /></td>
+			<td><input type="button" value="6" onClick="addNum('6')" /></td>
+			<td><input type="button" value="-" onClick="addOperator('-')" /></td>
+		</tr>
+		<tr>			
+			<td><input type="button" value="7" onClick="addNum('7')" /></td>
+			<td><input type="button" value="8" onClick="addNum('8')" /></td>
+			<td><input type="button" value="9" onClick="addNum('9')" /></td>
+			<td><input type="button" value="*" onClick="addOperator('*')" /></td>
+		</tr>
+		<tr>			
+		    <td><input type="button" value="." onClick="addNum('.')" /></td>
+			<td><input type="button" value="0" onClick="addNum('0')" /></td>
+			<td><input type="button" value="=" onClick="getResult()" /></td>
+			<td><input type="button" value="/" onClick="addOperator('/')" /></td>
+		</tr>	
+	</table>
+	<br>
+		<input type="button" value="Clear" onClick="clear_method()" />
+
+</div>
+    </body>
+</html>

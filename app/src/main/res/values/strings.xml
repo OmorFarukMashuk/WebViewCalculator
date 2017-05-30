@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WebActivity!</string>
+    <string name="app_name">WebView Calculator</string>
+    
+    <string name="click_btn">Click</string>
+    <string name="btn">Button</string>
+
+</resources>

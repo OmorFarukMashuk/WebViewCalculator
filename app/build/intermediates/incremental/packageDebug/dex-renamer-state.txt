@@ -1,0 +1,7 @@
+#Sun Feb 26 23:45:00 BDT 2017
+base.0=/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_73b551d17828a3b2fe1551df589b43c3524cc2e8
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8ce9a2331ae344e60ce1c9d15a3e855baf6b08fa/classes.dex
+base.1=/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8ce9a2331ae344e60ce1c9d15a3e855baf6b08fa
+file.0=/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_73b551d17828a3b2fe1551df589b43c3524cc2e8/classes.dex

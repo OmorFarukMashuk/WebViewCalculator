@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dbef307bba2f7471c501c8e993438b52e1fc97cc">
+        <dex dex="/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8ce9a2331ae344e60ce1c9d15a3e855baf6b08fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7061231364960d85f5dc83e11d7436dc6752f78a">
+        <dex dex="/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_73b551d17828a3b2fe1551df589b43c3524cc2e8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ad8425f514391d72254d031ad213681f5986a3d5">
+        <dex dex="/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_73b551d17828a3b2fe1551df589b43c3524cc2e8/classes.dex" />
+    </item>
+
+</items>

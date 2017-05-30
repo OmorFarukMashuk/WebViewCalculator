@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 55,
+                        "endOffset": 171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 38,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endColumn": 38,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 43,
+                    "endOffset": 189
+                },
+                "from": {
+                    "file": "/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 43,
+                        "endOffset": 222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 194,
+                    "endColumn": 59,
+                    "endOffset": 249
+                },
+                "from": {
+                    "file": "/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 59,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    }
+]

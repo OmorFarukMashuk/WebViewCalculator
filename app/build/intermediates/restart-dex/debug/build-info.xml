@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="16989312691711"
+    token="167954518363568702"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1738" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="259" />
+    <task
+        name="verifier"
+        duration="18" />
+
+    <artifact
+        location="/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="16989312691711"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/Mashuk/AndroidStudioProjects/WebViewCalc/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
